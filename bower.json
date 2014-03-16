@@ -1,0 +1,13 @@
+{
+  "name": "snake",
+  "version": "0.0.0",
+  "homepage": "https://github.com/spotch/snake",
+  "authors": [
+    "Adam Schneider <spotchious@gmail.com>"
+  ],
+  "description": "SNAKE GAME!",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "1.2.14"
+  }
+}
