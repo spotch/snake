@@ -1,6 +1,10 @@
 describe('Example', function() {
-	it('returns Hello!', function() {
-		var actual = Example();
-		expect(actual).toEqual('Hello!');
+	beforeEach(function() {
+		angular.mock.module('exampleModule');
 	});
+
+	it('returns Hello!', inject(function(example) {
+		var actual = example.welcome();
+		expect(actual).toEqual('Hello!');
+	}));
 });

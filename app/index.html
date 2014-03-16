@@ -1,10 +1,16 @@
-<!DOCTYPE html>
-<html ng-app>
+<!doctype html>
+<html ng-app="snakeGame">
 	<head>
 		<title>Snake Game!</title>
 		<script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+
+		<script type="text/javascript" src="example/example.js"></script>
+		<script type="text/javascript" src="example/example_module.js"></script>
+
+		<script type="text/javascript" src="snake_game_controller.js"></script>
+		<script type="text/javascript" src="snake_game.js"></script>
 	</head>
-	<body>
-		Snake Game!
+	<body ng-controller="SnakeGameController">
+		{{welcome}}
 	</body>
 </html>

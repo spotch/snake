@@ -8,6 +8,7 @@
   "description": "SNAKE GAME!",
   "license": "MIT",
   "dependencies": {
-    "angular": "1.2.14"
+    "angular": "1.2.14",
+    "angular-mocks": "~1.2.14"
   }
 }
